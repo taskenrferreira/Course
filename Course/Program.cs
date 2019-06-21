@@ -1,8 +1,8 @@
-﻿using Course.Entities;
-using Course.Entities.Enums;
+﻿using EnumsExample.Entities;
+using EnumsExample.Entities.Enums;
 using System;
 
-namespace Course
+namespace EnumsExample
 {
     class Program
     {
@@ -15,7 +15,7 @@ namespace Course
                 Status = OrderStatus.Processing
             };
 
-            Console.WriteLine(order);           
+            Console.WriteLine(order);
         }
     }
 }

@@ -1,60 +1,76 @@
-﻿using Course01.Entities;
-using Course01.Entities.Enums;
+﻿using WorkerExercise.Entities;
+using WorkerExercise.Entities.Enums;
 using System;
 using System.Globalization;
+using WorkerExercise.Entities;
 
-namespace Course01
+namespace WorkerExercise
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string name;
-            WorkerLevel level;
-            double baseSalary;
-            int count;
+            //string name;
+            //WorkerLevel level;
+            //double baseSalary = 0.0;
+            //int count = 0;
 
-            DateTime date;
-            double valuePerHour;
-            int hours;
+            //DateTime date;
+            //double valuePerHour;
+            //int hours;
 
-            string monthYear;
+            //string monthYear;
+
+            Console.Write("Enter department's name: ");
+            Department department = new Department(Console.ReadLine());
 
             Console.WriteLine("Enter worker data:");
             Console.Write("Name: ");
-            name = Console.ReadLine();
+            string name = Console.ReadLine();
+
             Console.Write("Level (Junior/MidLevel/Senior): ");
-            level = (WorkerLevel)Enum.Parse(typeof(WorkerLevel), Console.ReadLine());
-            Console.Write("Base salary");
-            baseSalary = double.Parse(Console.ReadLine());
+            //WorkerLevel level = (WorkerLevel)Enum.Parse(typeof(WorkerLevel), Console.ReadLine());
+            WorkerLevel level = Enum.Parse<WorkerLevel>(Console.ReadLine());
+
+            Console.Write("Base salary: ");
+            double baseSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
             Console.WriteLine();
 
-            Worker worker = new Worker{name, level, baseSalary);
+            Worker worker = new Worker(name, level, baseSalary, department);
 
-            Console.Write("How many contracts to this worker?");
-            count = int.Parse(Console.ReadLine());
+            Console.Write("How many contracts to this worker? ");
+            int count = int.Parse(Console.ReadLine());
 
-            for(int i = 0; i < count; i++)
+            for (int i = 1; i <= count; i++)
             {
+                Console.WriteLine($"Enter #{i} contract data: ");
                 Console.Write("Date (DD/MM/YYYY): ");
-                date = DateTime.Parse(Console.ReadLine());
+                DateTime date = DateTime.Parse(Console.ReadLine());
                 Console.Write("Value per hour: ");
-                valuePerHour = double.Parse(Console.ReadLine());
-                Console.Write("Hours");
-                hours = int.Parse(Console.ReadLine());
+                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Console.Write("Hours: ");
+                int hours = int.Parse(Console.ReadLine());
                 Console.WriteLine();
 
-                HourContract hourContract = new HourContract(date,valuePerHour,hours);
+                HourContract contract = new HourContract(date, valuePerHour, hours);
 
-                Worker.AddContract(hourContract);
+                worker.AddContract(contract);
             }
 
             Console.Write("Enter month and year to calculate income (MM/YYYY): ");
-            monthYear = Console.ReadLine();
+            string monthYear = Console.ReadLine();
+            int month = int.Parse(monthYear.Substring(0, 2));
+            int year = int.Parse(monthYear.Substring(3));
+
             Console.WriteLine();
 
-            Console.WriteLine(worker);
+            Console.WriteLine($"Name: {worker.Name}");
+            Console.WriteLine($"Department: {worker.Department.Name}");
+            Console.WriteLine($"Income for {monthYear}: {worker.Income(year, month).ToString("F2", CultureInfo)}\n");
 
+            //Console.WriteLine(sumSalary);
+            //Console.WriteLine(worker.ToString(monthYear, Income(month, year)));
         }
     }
 }

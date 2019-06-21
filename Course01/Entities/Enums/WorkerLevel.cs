@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Course01.Entities.Enums
+namespace WorkerExercise.Entities.Enums
 {
     enum WorkerLevel : int
     {

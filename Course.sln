@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course", "Course\Course.csproj", "{E9FFDDB2-E722-4F81-AF0E-FB7EE39A0771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumsExample", "Course\EnumsExample.csproj", "{E9FFDDB2-E722-4F81-AF0E-FB7EE39A0771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course01", "Course01\Course01.csproj", "{A1BF5FE9-B002-401E-8B60-ADC7CD7D3E2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExercise", "Course01\WorkerExercise.csproj", "{A1BF5FE9-B002-401E-8B60-ADC7CD7D3E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMedia", "SocialMedia\SocialMedia.csproj", "{1F47DCED-2121-4634-AB9A-30E53175F363}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A1BF5FE9-B002-401E-8B60-ADC7CD7D3E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1BF5FE9-B002-401E-8B60-ADC7CD7D3E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1BF5FE9-B002-401E-8B60-ADC7CD7D3E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F47DCED-2121-4634-AB9A-30E53175F363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F47DCED-2121-4634-AB9A-30E53175F363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F47DCED-2121-4634-AB9A-30E53175F363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F47DCED-2121-4634-AB9A-30E53175F363}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
