@@ -43,33 +43,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathTest", "PathTest\PathTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceSummary", "SourceSummary\SourceSummary.csproj", "{667104F0-89CC-418E-9CAC-EA56A7913991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalCarNoInterface", "RentalCarNoInterface\RentalCarNoInterface.csproj", "{A4193F3D-CE7C-4E5C-9DEC-A171FCCB1865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCarNoInterface", "RentalCarNoInterface\RentalCarNoInterface.csproj", "{A4193F3D-CE7C-4E5C-9DEC-A171FCCB1865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalCarInterface", "RentarCarInterface\RentalCarInterface.csproj", "{1737C8D9-017C-4411-B3FB-E9DD80AF102F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCarInterface", "RentarCarInterface\RentalCarInterface.csproj", "{1737C8D9-017C-4411-B3FB-E9DD80AF102F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractInterfaceTest", "ContractInterfaceTest\ContractInterfaceTest.csproj", "{E9752970-9393-4C32-86B5-8EB430250990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContractInterfaceTest", "ContractInterfaceTest\ContractInterfaceTest.csproj", "{E9752970-9393-4C32-86B5-8EB430250990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeTest", "ShapeTest\ShapeTest.csproj", "{56DDAE50-A6A1-4EC8-8966-2BDAFE0410A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeTest", "ShapeTest\ShapeTest.csproj", "{56DDAE50-A6A1-4EC8-8966-2BDAFE0410A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondProblem", "DiamondProblem\DiamondProblem.csproj", "{FA055490-E664-4DE6-8E42-C6EFD82EF905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondProblem", "DiamondProblem\DiamondProblem.csproj", "{FA055490-E664-4DE6-8E42-C6EFD82EF905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IComparableTest", "IComparableTest\IComparableTest.csproj", "{F1803999-4EBE-48F4-A08D-FD06AE626594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IComparableTest", "IComparableTest\IComparableTest.csproj", "{F1803999-4EBE-48F4-A08D-FD06AE626594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{01852441-463F-425D-971D-D85F40418F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{01852441-463F-425D-971D-D85F40418F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTest", "DelegateTest\DelegateTest.csproj", "{0CE5C77D-DA61-4776-BFB7-415A1CBB8447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateTest", "DelegateTest\DelegateTest.csproj", "{0CE5C77D-DA61-4776-BFB7-415A1CBB8447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDelegateTest", "MultipleDelegateTest\MultipleDelegateTest.csproj", "{CB25F309-931D-47C1-8356-E66FDD9DE8BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDelegateTest", "MultipleDelegateTest\MultipleDelegateTest.csproj", "{CB25F309-931D-47C1-8356-E66FDD9DE8BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateTest", "PredicateTest\PredicateTest.csproj", "{5235B64C-5D28-4AB6-B44E-E729A582AC53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredicateTest", "PredicateTest\PredicateTest.csproj", "{5235B64C-5D28-4AB6-B44E-E729A582AC53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionTest", "ActionTest\ActionTest.csproj", "{E98875D1-A6E9-4EFD-85E4-E029C76AE653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionTest", "ActionTest\ActionTest.csproj", "{E98875D1-A6E9-4EFD-85E4-E029C76AE653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncTest", "FuncTest\FuncTest.csproj", "{25DD788D-B69E-423E-9D00-4FC5778C24F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncTest", "FuncTest\FuncTest.csproj", "{25DD788D-B69E-423E-9D00-4FC5778C24F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTest", "LinqTest\LinqTest.csproj", "{54C27DAF-EEE7-4B1C-AD5F-90CD6292F91B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqTest", "LinqTest\LinqTest.csproj", "{54C27DAF-EEE7-4B1C-AD5F-90CD6292F91B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqLambdaTest", "LinqLambdaTest\LinqLambdaTest.csproj", "{63E904E8-1B83-46BA-8840-7967518C951A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqLambdaTest", "LinqLambdaTest\LinqLambdaTest.csproj", "{63E904E8-1B83-46BA-8840-7967518C951A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqLambdaExercise", "LinqLambdaExercise\LinqLambdaExercise.csproj", "{2B7DB1FE-4E1A-4ED5-BDDB-2A60C8600E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqLambdaExercise2", "LinqLambdaExercise2\LinqLambdaExercise2.csproj", "{C85181EE-2D1B-445E-A0EE-557928DE846F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,14 @@ Global
 		{63E904E8-1B83-46BA-8840-7967518C951A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63E904E8-1B83-46BA-8840-7967518C951A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63E904E8-1B83-46BA-8840-7967518C951A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7DB1FE-4E1A-4ED5-BDDB-2A60C8600E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7DB1FE-4E1A-4ED5-BDDB-2A60C8600E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7DB1FE-4E1A-4ED5-BDDB-2A60C8600E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7DB1FE-4E1A-4ED5-BDDB-2A60C8600E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85181EE-2D1B-445E-A0EE-557928DE846F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85181EE-2D1B-445E-A0EE-557928DE846F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85181EE-2D1B-445E-A0EE-557928DE846F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85181EE-2D1B-445E-A0EE-557928DE846F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
